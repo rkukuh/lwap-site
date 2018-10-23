@@ -163,6 +163,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Rkukuh\LwapPackage\LwapPackageProvider::class,
 
         /*
          * Application Service Providers...

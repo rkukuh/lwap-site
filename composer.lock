@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66ca7343889332c2b8ecca11c251430c",
+    "content-hash": "f0f392bdf104f0a8e85f34ba7e50dec9",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1330,6 +1330,37 @@
                 "uuid"
             ],
             "time": "2018-07-19T23:38:55+00:00"
+        },
+        {
+            "name": "rkukuh/lwap-package",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rkukuh/lwap-package.git",
+                "reference": "2b900d1fa31b4991f0ccf6cf2cf29fa6717c033d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rkukuh/lwap-package/zipball/2b900d1fa31b4991f0ccf6cf2cf29fa6717c033d",
+                "reference": "2b900d1fa31b4991f0ccf6cf2cf29fa6717c033d",
+                "shasum": ""
+            },
+            "type": "laravel-package",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "R. Kukuh",
+                    "email": "rkukuh@gmail.com"
+                }
+            ],
+            "description": "My first Laravel package",
+            "support": {
+                "source": "https://github.com/rkukuh/lwap-package/tree/master",
+                "issues": "https://github.com/rkukuh/lwap-package/issues"
+            },
+            "time": "2018-10-23T07:05:52+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4120,7 +4151,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "rkukuh/lwap-package": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

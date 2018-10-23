@@ -1337,15 +1337,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rkukuh/lwap-package.git",
-                "reference": "2b900d1fa31b4991f0ccf6cf2cf29fa6717c033d"
+                "reference": "cb747b5a62fa4ae34862dbca8917785da131c2df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rkukuh/lwap-package/zipball/2b900d1fa31b4991f0ccf6cf2cf29fa6717c033d",
-                "reference": "2b900d1fa31b4991f0ccf6cf2cf29fa6717c033d",
+                "url": "https://api.github.com/repos/rkukuh/lwap-package/zipball/cb747b5a62fa4ae34862dbca8917785da131c2df",
+                "reference": "cb747b5a62fa4ae34862dbca8917785da131c2df",
                 "shasum": ""
             },
             "type": "laravel-package",
+            "autoload": {
+                "psr-4": {
+                    "Rkukuh\\LwapPackage\\": "src/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -1360,7 +1365,7 @@
                 "source": "https://github.com/rkukuh/lwap-package/tree/master",
                 "issues": "https://github.com/rkukuh/lwap-package/issues"
             },
-            "time": "2018-10-23T07:05:52+00:00"
+            "time": "2018-10-23T08:10:35+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2509,16 +2514,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.3.0",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "a9f129b99df316f847584d482c89c14a9f796e2b"
+                "reference": "bc0fd11bc455cc20ee4b5edabc63ebbf859324c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/a9f129b99df316f847584d482c89c14a9f796e2b",
-                "reference": "a9f129b99df316f847584d482c89c14a9f796e2b",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/bc0fd11bc455cc20ee4b5edabc63ebbf859324c7",
+                "reference": "bc0fd11bc455cc20ee4b5edabc63ebbf859324c7",
                 "shasum": ""
             },
             "require": {
@@ -2566,7 +2571,7 @@
                 "throwable",
                 "whoops"
             ],
-            "time": "2018-10-20T09:00:00+00:00"
+            "time": "2018-10-23T09:00:00+00:00"
         },
         {
             "name": "fzaninotto/faker",
@@ -3161,16 +3166,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "6.1.2",
+            "version": "6.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "f317d4eb2023a3d9c716b715244348dbc5b81a56"
+                "reference": "4d3ae9b21a7d7e440bd0cf65565533117976859f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/f317d4eb2023a3d9c716b715244348dbc5b81a56",
-                "reference": "f317d4eb2023a3d9c716b715244348dbc5b81a56",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/4d3ae9b21a7d7e440bd0cf65565533117976859f",
+                "reference": "4d3ae9b21a7d7e440bd0cf65565533117976859f",
                 "shasum": ""
             },
             "require": {
@@ -3181,7 +3186,7 @@
                 "phpunit/php-text-template": "^1.2.1",
                 "phpunit/php-token-stream": "^3.0",
                 "sebastian/code-unit-reverse-lookup": "^1.0.1",
-                "sebastian/environment": "^4.0",
+                "sebastian/environment": "^3.1 || ^4.0",
                 "sebastian/version": "^2.0.1",
                 "theseer/tokenizer": "^1.1"
             },
@@ -3220,7 +3225,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-10-23T05:06:12+00:00"
+            "time": "2018-10-23T05:59:32+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",

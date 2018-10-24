@@ -13879,7 +13879,8 @@ module.exports = Cancel;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(12);
-module.exports = __webpack_require__(43);
+__webpack_require__(43);
+module.exports = __webpack_require__(44);
 
 
 /***/ }),
@@ -47413,6 +47414,12 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 44 */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: ModuleBuildError: Module build failed: \n@charset 'UTF-8';\n^\n      An @import loop has been found:\n    stdin imports vendor/rkukuh/lwap-package/src/resources/sass/main.scss\n    vendor/rkukuh/lwap-package/src/resources/sass/main.scss imports vendor/rkukuh/lwap-package/src/resources/sass/main.scss\n    vendor/rkukuh/lwap-package/src/resources/sass/main.scss imports vendor/rkukuh/lwap-package/src/resources/sass/main.scss\n      in /Users/rkukuh/code/lwap-site/vendor/rkukuh/lwap-package/src/resources/sass/main.scss (line 1, column 1)\n    at runLoaders (/Users/rkukuh/code/lwap-site/node_modules/webpack/lib/NormalModule.js:195:19)\n    at /Users/rkukuh/code/lwap-site/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/rkukuh/code/lwap-site/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at context.callback (/Users/rkukuh/code/lwap-site/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Object.asyncSassJobQueue.push [as callback] (/Users/rkukuh/code/lwap-site/node_modules/sass-loader/lib/loader.js:55:13)\n    at Object.done [as callback] (/Users/rkukuh/code/lwap-site/node_modules/neo-async/async.js:8077:18)\n    at options.error (/Users/rkukuh/code/lwap-site/node_modules/node-sass/lib/index.js:294:32)");
 
 /***/ })
 /******/ ]);

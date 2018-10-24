@@ -2,6 +2,6 @@
 
 return [
     'contact' => [
-        'email' => 'rkukuh@gmail.com'
+        'email' => 'rkukuh@lwap-site.com'
     ]
 ];
